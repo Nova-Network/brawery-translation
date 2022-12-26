@@ -5,7 +5,7 @@
 # Defaults are written in []
 
 # Languagefile to be used (found in plugins/Brewery/languages)
-language: en
+language: ru
 
 # If the player wakes up at /home when logging in after excessive drinking (/home plugin must be installed!) [true]
 enableHome: true
@@ -156,7 +156,7 @@ customItems:
 cauldron:
   # Example with all possible entries
   ex:
-    name: Example
+    name: Пример
     ingredients:
       - Bedrock/2
       - Diamond
@@ -172,13 +172,13 @@ cauldron:
 
   # -- One Ingredient: --
   wheat:
-    name: Fermented wheat
+    name: Ферментированная пшеница
     ingredients: Wheat
     cookParticles:
       - '2d8686/8' # Dark Aqua
 
   sugarcane:
-    name: Sugar brew
+    name: Сахарное варево
     ingredients: Sugar_Cane
     color: 'f1ffad' # yellowish green
     cookParticles:
@@ -186,18 +186,18 @@ cauldron:
       - '858547/10' # dark olive
 
   sugar:
-    name: Sugarwater
+    name: Сахарная вода
     ingredients: Sugar
     cookParticles:
       - 'WHITE/4'
       - 'BRIGHT_GREY/25'
 
   apple:
-    name: Apple must
+    name: Яблочное варево
     ingredients: Apple
 
   berries:
-    name: Grape must
+    name: Виноградное варево
     ingredients: Sweet_Berries
     color: RED
     cookParticles:
@@ -206,11 +206,11 @@ cauldron:
       - 'ac6553/13' # brown-red
 
   potato:
-    name: Potatomash
+    name: Картофельное пюре
     ingredients: Potato
 
   grass:
-    name: Boiled herbs
+    name: Отваренные травы
     ingredients: Grass
     color: '99ff66' # bright green
     cookParticles:
@@ -218,21 +218,21 @@ cauldron:
       - '99ff99/20' # faded green
 
   rmushroom:
-    name: Mushroom brew
+    name: Мухоморное варево
     ingredients: Red_Mushroom
     color: 'ff5c33' # amber red
     cookParticles:
       - 'fab09e/15' # faded red
 
   bmushroom:
-    name: Mushroom brew
+    name: Грибное варево
     ingredients: Brown_Mushroom
     color: 'c68c53' # brighter brown
     cookParticles:
       - 'c68c53/15'
 
   cocoa:
-    name: Chocolately brew
+    name: Шоколадное варево
     ingredients: Cocoa_Beans
     color: '804600' # mocca
     cookParticles:
@@ -241,7 +241,7 @@ cauldron:
       - '4d4133/8' # Gray-brown
 
   milk:
-    name: Milky water
+    name: Молочная вода
     ingredients: Milk_Bucket
     color: BRIGHT_GREY
     cookParticles:
@@ -249,34 +249,34 @@ cauldron:
       - 'WHITE/6'
 
   bl_flow:
-    name: Blueish brew
+    name: Голубоватое варево
     ingredients: blue-flowers
     color: '0099ff' # sky blue
     cookParticles:
       - '0099ff'
 
   cactus:
-    name: Agave brew
+    name: Настойка из агавы
     ingredients: cactus
     color: '00b300' # cactus green
     cookParticles:
       - '00b300/16'
 
   poi_potato:
-    name: Poisonous Broth
+    name: Ядовитый бульон
     ingredients: Poisonous_Potato
 
   egg:
-    name: Sticky brew
+    name: Липкое варево
     ingredients: Egg
 
 
   oak_sapling:
-    name: Stringy hebry broth
+    name: Бульон из хебри
     ingredients: Oak_Sapling
 
   vine:
-    name: Boiled herbs
+    name: Отвареные травы
     ingredients: vine
     color: '99ff66' # bright green
     cookParticles:
@@ -284,7 +284,7 @@ cauldron:
       - '99ff99/20' # faded green
 
   rot_flesh:
-    name: Foul pest
+    name: Ядовитый настой
     ingredients: Rotten_Flesh
     color: '263300' # brown green
     cookParticles:
@@ -292,28 +292,28 @@ cauldron:
       - 'BLACK/20'
 
   melon:
-    name: Melon juice
+    name: Арбузный сок
     ingredients: melon_slice
 
   wheat_seeds:
-    name: Bitter brew
+    name: Горький напиток
     ingredients: Wheat_Seeds
 
   melon_seeds:
-    name: Bitter brew
+    name: Горький напиток
     ingredients: Melon_Seeds
 
   pumpkin_seeds:
-    name: Bitter brew
+    name: Горький напиток
     ingredients: Pumpkin_Seeds
 
   bone_meal:
-    name: Bony Brew
+    name: Настой из костей
     ingredients: bone_meal
     color: BRIGHT_GREY
 
   cookie:
-    name: Chocolately sap
+    name: Настойка из печенья
     ingredients: Cookie
     color: '804600' # mocca
     cookParticles:
@@ -322,26 +322,26 @@ cauldron:
       - '4d4133/8' # Gray-brown
 
   fer_spid_eye:
-    name: Fermented Eye
+    name: Ферментированный глаз
     ingredients: Fermented_Spider_Eye
 
   ghast_tear:
-    name: Sad brew
+    name: Варево из слёз
     ingredients: ghast_tear
 
   snowball:
-    name: Icewater
+    name: Ледяная вода
     ingredients: Snowball
 
   Gold_Nugget:
-    name: Glistering brew
+    name: Блестящее нечто
     ingredients: Gold_Nugget
     color: 'ffd11a' # gold
     cookParticles:
       - 'ffd11a'
 
   glowstone_dust:
-    name: Glowing brew
+    name: Сверкающее нечто
     ingredients: Glowstone_Dust
     color: 'ffff33' # bright yellow
     cookParticles:
@@ -350,7 +350,7 @@ cauldron:
 
   # -- Multiple Ingredients: --
   applemead_base:
-    name: Apple-Sugar brew
+    name: Яблочно-сахарный настой
     ingredients:
       - Sugar_Cane/3
       - Apple
@@ -359,7 +359,7 @@ cauldron:
       - 'e1ff4d/4'
 
   poi_grass:
-    name: Boiled acidy herbs
+    name: Отваренные кислые травы
     ingredients:
       - Grass
       - Poisonous_Potato
@@ -369,7 +369,7 @@ cauldron:
       - '99ff99/20' # faded green
 
   juniper:
-    name: Juniper brew
+    name: Можжевеловый настой
     ingredients:
       - blue-flowers
       - wheat
@@ -378,7 +378,7 @@ cauldron:
       - '00ccff/8'
 
   gin_base:
-    name: Fruity juniper brew
+    name: Фруктово-можжевеловый настой
     ingredients:
       - blue-flowers
       - wheat
@@ -388,7 +388,7 @@ cauldron:
       - '00ccff/5'
 
   eggnog_base:
-    name: Smooth egg mixture
+    name: Однородная яичная смесь
     ingredients:
       - egg
       - sugar
@@ -437,7 +437,7 @@ cauldron:
 recipes:
   #  Example Recipe with every possible entry first:
   ex:
-    name: Bad Example/Example/Good Example
+    name: Плохой пример/Пример/Хороший пример
     ingredients:
       - Diamond/1
       - Spruce_Planks/8
@@ -475,7 +475,7 @@ recipes:
       - POISON/1-0/20-0
 
   wheatbeer:
-    name: Skunky Wheatbeer/Wheatbeer/Fine Wheatbeer
+    name: Недоготовленное пшеничное пиво/Пшеничное пиво/Хорошее пшеничное пиво
     ingredients:
       - Wheat/3
     cookingtime: 8
@@ -488,7 +488,7 @@ recipes:
     lore: +++ &8Refreshing
 
   beer:
-    name: Skunky Beer/Beer/Fine Beer
+    name: Недоготовленное пиво/Пиво/Хорошее пиво
     ingredients:
       - Wheat/6
     cookingtime: 8
@@ -502,7 +502,7 @@ recipes:
     alcohol: 6
 
   darkbeer:
-    name: Skunky Darkbeer/Darkbeer/Fine Darkbeer
+    name: Недоготовленное тёмное пиво/Тёмное пиво/Хорошее тёмное пиво
     ingredients:
       - Wheat/6
     cookingtime: 8
@@ -516,7 +516,7 @@ recipes:
     alcohol: 7
 
   wine:
-    name: Red Wine
+    name: Красное вино
     ingredients:
       - Sweet_Berries/5
     cookingtime: 5
@@ -533,7 +533,7 @@ recipes:
       - '+++ &8Full-Bodied'
 
   mead:
-    name: Awkward Mead/Mead/&6Golden Mead
+    name: Недоготовленная медовуха/Медовуха/&6Золотистая медовуха
     ingredients:
       - Sugar_Cane/6
     cookingtime: 3
@@ -547,7 +547,7 @@ recipes:
     alcohol: 9
 
   ap_mead:
-    name: Apple Mead/Sweet Apple Mead/&6Sweet Golden Apple Mead
+    name: Яблочная медовуха/Сладкая яблочная медовуха/&6Сладкая яблочно-золотистая медовуха
     ingredients:
       - Sugar_Cane/6
       - Apple/2
@@ -566,7 +566,7 @@ recipes:
       - WATER_BREATHING/1-2/150
 
   cidre:
-    name: Poor Cidre/Apple Cider/Great Apple Cider
+    name: Недоготовленный сидр/Яблочный сидр/Хороший яблочный сидр
     ingredients:
       - Apple/14
     cookingtime: 7
@@ -578,7 +578,7 @@ recipes:
     alcohol: 7
 
   apple_liquor:
-    name: Sour Apple Liquor/Apple Liquor/Calvados
+    name: Кислый яблочный ликёр/Яблочный ликёр/Кальвадос
     ingredients:
       - Apple/12
     cookingtime: 16
@@ -593,7 +593,7 @@ recipes:
       - +++ Good Apple Liquor
 
   whiskey:
-    name: Unsightly Whiskey/Whiskey/Scotch Whiskey
+    name: Недоготовленный виски/Виски/Шотландский виски
     ingredients:
       - Wheat/10
     cookingtime: 10
@@ -607,7 +607,7 @@ recipes:
     lore: '&7Single Malt'
 
   rum:
-    name: Bitter Rum/Spicy Rum/&6Golden Rum
+    name: Горький ром/Ром/&6Золотистый ром
     ingredients:
       - Sugar_Cane/18
     cookingtime: 6
@@ -627,7 +627,7 @@ recipes:
       - +++&eSpiced Gold
 
   vodka:
-    name: Lousy Vodka/Vodka/Russian Vodka
+    name: Недоготовленная водка/Водка/Русская водка
     ingredients:
       - Potato/10
     cookingtime: 15
@@ -642,7 +642,7 @@ recipes:
       - POISON/10
 
   shroom_vodka:
-    name: Mushroom Vodka/Mushroom Vodka/Glowing Mushroom Vodka
+    name: Водка из грибов/Грибная водка/Сверкающая грибная водка
     ingredients:
       - Potato/10
       - Red_Mushroom/3
@@ -662,7 +662,7 @@ recipes:
       - SLOW/10-3
 
   gin:
-    name: Pale Gin/Gin/Old Tom Gin
+    name: Недоготовленный джин/Джин/Прекрасный джин
     ingredients:
       - Wheat/9
       - blue-flowers/6  # Custom-Item: Blue Orchids or Cornflowers
@@ -679,7 +679,7 @@ recipes:
       - +++ with juniper
 
   tequila:
-    name: Mezcal/Tequila/Tequila anejo
+    name: Мескаль (недоготовленная текила)/Текила/Великолепная текила
     ingredients:
       - cactus/8
     cookingtime: 15
@@ -692,7 +692,7 @@ recipes:
     lore: Desert spirit
 
   absinthe:
-    name: Poor Absinthe/Absinthe/Strong Absinthe
+    name: Недоготовленный абсент/Абсент/Настоявшийся абсент
     ingredients:
       - Grass/15
     cookingtime: 3
@@ -706,7 +706,7 @@ recipes:
     lore: '+++&8High proof liquor'
 
   gr_absinthe:
-    name: Poor Absinthe/Green Absinthe/Bright Green Absinthe
+    name: Недоготовленный зелёный абсент/Зелёный абсент/Настоявшийся зелёный абсент
     ingredients:
       - Grass/17
       - Poisonous_Potato/2
@@ -734,7 +734,7 @@ recipes:
       - HEAL/0-1
 
   coffee:
-    name: Stale Coffee/Coffee/Strong Coffee
+    name: Молоко и кофе-зерна/Кофе/Старбакс кофе
     ingredients:
       - Cocoa_Beans/12
       - Milk_Bucket/2
@@ -748,7 +748,7 @@ recipes:
       - SPEED/1/30-140
 
   eggnog:
-    name: Egg Liquor/Eggnog/Advocaat
+    name: Яичный ликёр/Эгг-ног/Готовый эгг-ног
     ingredients:
       - Egg/5
       - Sugar/2
