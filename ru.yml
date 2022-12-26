@@ -35,19 +35,19 @@ CMD_DrinkOther: '&a&v1 выпил одну &v2'
 
 # Error
 Error_ConfigUpdate: 'Unknown Brewery config version: v&v1, config was not updated!'
-Error_ItemNotPotion: '&cThe item in your hand could not be identified as a potion!'
-Error_SealingTableDisabled: '&cThe Sealing Table is disabled'
-Error_SealedAlwaysStatic: 'Sealed Brews are always static!'
-Error_AlreadyUnlabeled: '&cThe Brew in your hand is already unlabeled!'
-Error_NoBarrelAccess: '&cYou don''t have permissions to access this barrel!'
-Error_NoBrewName: '&cNo Recipe with Name: ''&v1&c'' found!'
-Error_NoPermissions: '&cYou don''t have permissions to do this!'
-Error_PlayerCommand: '&cThis command can only be executed as a player!'
-Error_Recipeload: '&cNot all recipes could be restored: More information in the server log!'
-Error_ShowHelp: Use &6/brew help &fto display the help
-Error_UnknownCommand: Unknown Command
+Error_ItemNotPotion: '&cПредмет в вашей руке не может быть идентифицирован как зелье!'
+Error_SealingTableDisabled: '&cТаблица пломбирования отключена'
+Error_SealedAlwaysStatic: 'Запечатаное варево всегда статично!'
+Error_AlreadyUnlabeled: '&cНапиток в вашей руке уже без этикетки.!'
+Error_NoBarrelAccess: '&cУ вас нету прав для доступа к этой бочке!'
+Error_NoBrewName: '&cНи одного Рецепта с именем: ''&v1&c'' не найдено!'
+Error_NoPermissions: '&cУ вас нету прав'
+Error_PlayerCommand: '&cЭту команду может использовать только игрок!'
+Error_Recipeload: '&cНе все рецепты удалось восстановить: Дополнительная информация в логе сервера!'
+Error_ShowHelp: Используйте &6/brew help &fдля отоброжения помощи
+Error_UnknownCommand: Неизвестная команда
 Error_YmlRead: 'Could not read file config.yml, please make sure the file is in valid yml format (correct spaces, using '' '' etc.)'
-Error_NoPlayer: 'Player not found: &v1'
+Error_NoPlayer: 'Игрок не найден: &v1'
 
 # Etc
 Etc_Barrel: Бочка
@@ -78,11 +78,11 @@ Help_WakeupRemove: '&6/brew wakeup remove <id> &9Removes the wakeup point with <
 Help_Puke: '&6/brew puke [Player] [Amount] &9Makes you or [Player] puke'
 Help_Drink: '&6/brew drink <Recipe> [Quality] [Player] &9Simulates [Player] drinking a Brew'
 # Perms
-Perms_NoBarrelCreate: '&cYou don''t have permissions to create barrels!'
-Perms_NoBigBarrelCreate: '&cYou don''t have permissions to create big barrels!'
-Perms_NoCauldronFill: '&cYou don''t have permissions to fill bottles from this cauldron!'
-Perms_NoCauldronInsert: '&cYou don''t have permissions to put ingredients into cauldrons!'
-Perms_NoSmallBarrelCreate: '&cYou don''t have permissions to create small barrels!'
+Perms_NoBarrelCreate: '&cУ вас нету прав для создания бочек!'
+Perms_NoBigBarrelCreate: '&cУ вас нету прав для создания больших бочек!'
+Perms_NoCauldronFill: '&cУ вас нету прав для заполнения котла бутылками!'
+Perms_NoCauldronInsert: '&cУ вас нету прав для помещения инградиентов в котёл!'
+Perms_NoSmallBarrelCreate: '&cУ вас нету прав для создания маленьких бочек!'
 # Player
 Player_BarrelCreated: Бочка успешно создана
 Player_BarrelFull: '&cВ эту бочку нельзя положить больше напитков'
