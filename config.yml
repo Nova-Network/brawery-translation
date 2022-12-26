@@ -108,7 +108,7 @@ customItems:
     material: Barrier
     name: 'Wall'
     lore:
-      - '&7Very well protected'
+      - '&7Хорошо защищено'
 
   ex-item2:
     # Using matchAny only one of the following has to match.
@@ -119,12 +119,12 @@ customItems:
       - Oak_Door
       - Spruce_Door
     name:
-      - 'Beechwood Door'
+      - 'Дверь'
     lore:
-      - 'A door'
+      - 'Дверь'
 
   rasp:
-    name: '&cRaspberry'
+    name: '&cМалина'
 
   blue-flowers:
     matchAny: true
@@ -166,8 +166,8 @@ cauldron:
       - 'WHITE/10'
       - '800000/25' # maroon
     lore:
-      - An example for a Base Potion
-      - This is how it comes out of a Cauldron
+      - Пример базового зелья
+      - Вот то, что получается после варки в котле
     customModelData: 545
 
   # -- One Ingredient: --
@@ -454,12 +454,12 @@ recipes:
     difficulty: 3
     alcohol: 14
     lore:
-      - This is an examble brew
-      - ++Just a normal Example
-      - This text would be on the brew
-      - + Smells disgusting
-      - ++ Smells alright
-      - +++ Smells really good
+      - Это пример того, каким может быть зелье
+      - ++Просто хороший пример
+      - Этот текст был бы в описании напитка
+      - + Пахнет ужасно
+      - ++ Пахнет неплохо
+      - +++ Пахнет реально круто
     servercommands:
       - +++ weather clear
       - + weather rain
@@ -485,7 +485,7 @@ recipes:
     color: 'ffb84d' # Orange
     difficulty: 1
     alcohol: 5
-    lore: +++ &8Refreshing
+    lore: +++ &8Хорошо освежает!
 
   beer:
     name: Недоготовленное пиво/Пиво/Хорошее пиво
@@ -498,7 +498,7 @@ recipes:
     color: 'ffd333' # Bright Orange
     difficulty: 1
     lore:
-      - +++ &8Crisp taste
+      - +++ &8Прекрасный вкус, прекрасная пенка!
     alcohol: 6
 
   darkbeer:
@@ -512,7 +512,7 @@ recipes:
     color: '650013' # Dark Red-Brown
     difficulty: 2
     lore:
-      - +++ &8Roasted taste
+      - +++ &8Выглядит красиво, а на вкус еще лучше!
     alcohol: 7
 
   wine:
@@ -527,10 +527,10 @@ recipes:
     difficulty: 4
     alcohol: 8
     lore:
-      - '+ &8Harsh'
-      - '+ &8Corked'
-      - '++ &8Mellow'
-      - '+++ &8Full-Bodied'
+      - '+ &8Такое себе'
+      - '+ &8Средне'
+      - '++ &8Сочно!'
+      - '+++ &8Полностью готово!'
 
   mead:
     name: Недоготовленная медовуха/Медовуха/&6Золотистая медовуха
@@ -543,7 +543,7 @@ recipes:
     color: ORANGE
     difficulty: 2
     lore:
-      - +++ Has a golden shine
+      - +++ Имеет золотистый цвет и сладкий вкус!
     alcohol: 9
 
   ap_mead:
@@ -559,9 +559,9 @@ recipes:
     difficulty: 4
     alcohol: 11
     lore:
-      - +Is there any Apple in this?
-      - ++Refreshing taste of Apple
-      - +++Sweetest hint of Apple
+      - +Там вообще есть хоть одно яблоко?
+      - ++Освежающий вкус яблока!
+      - +++Очень сладкий, приятный привкус!
     effects:
       - WATER_BREATHING/1-2/150
 
@@ -589,8 +589,8 @@ recipes:
     difficulty: 5
     alcohol: 14
     lore:
-      - +Sour like Acid
-      - +++ Good Apple Liquor
+      - +Очень кислый
+      - +++ Хороший такой, приятный яблочный ликёр
 
   whiskey:
     name: Недоготовленный виски/Виски/Шотландский виски
@@ -622,9 +622,9 @@ recipes:
       - FIRE_RESISTANCE/1/20-100
       - POISON/1-0/30-0
     lore:
-      - +&8Too bitter to drink
-      - ++&8Spiced by the barrel
-      - +++&eSpiced Gold
+      - +&8Слишком горький для питья
+      - ++&8В бочке стал лучше
+      - +++&eЗолотое качество!
 
   vodka:
     name: Недоготовленная водка/Водка/Русская водка
@@ -636,7 +636,7 @@ recipes:
     color: WHITE
     difficulty: 4
     alcohol: 20
-    lore: + &8Almost undrinkable
+    lore: + &8Совсем не пригодно для питья (Слава России!)
     effects:
       - WEAKNESS/15
       - POISON/10
@@ -653,7 +653,7 @@ recipes:
     color: 'ff9999' # Pink-Red
     difficulty: 7
     alcohol: 18
-    lore: +++&aGlows in the dark
+    lore: +++&aСветится в темноте
     effects:
       - WEAKNESS/80
       - CONFUSION/27
@@ -673,10 +673,10 @@ recipes:
     difficulty: 6
     alcohol: 20
     lore:
-      - ++ With the
-      - ++ taste of juniper
-      - +++ Perfectly finished off
-      - +++ with juniper
+      - ++ Вместе с
+      - ++ На вкус как можжевельник
+      - +++ Хорошо приготовлено
+      - +++ с можжевельником
 
   tequila:
     name: Мескаль (недоготовленная текила)/Текила/Великолепная текила
@@ -689,7 +689,7 @@ recipes:
     wood: 1
     age: 12
     alcohol: 20
-    lore: Desert spirit
+    lore: Мечта жителей пустыни
 
   absinthe:
     name: Недоготовленный абсент/Абсент/Настоявшийся абсент
@@ -703,7 +703,7 @@ recipes:
     alcohol: 42
     effects:
       - POISON/15-25
-    lore: '+++&8High proof liquor'
+    lore: '+++&8Ликёр высокого качества'
 
   gr_absinthe:
     name: Недоготовленный зелёный абсент/Зелёный абсент/Настоявшийся зелёный абсент
@@ -720,7 +720,7 @@ recipes:
       - POISON/25-40
       - HARM/2
       - NIGHT_VISION/40-60
-    lore: '&aLooks poisonous'
+    lore: '&aВыглядит... ядовито...'
 
   potato_soup:
     name: Potato soup
@@ -742,13 +742,13 @@ recipes:
     color: BLACK
     difficulty: 3
     alcohol: -6
-    lore: + &8Probably a week old
+    lore: + &8Поможет тебе пережить рабочую неделю
     effects:
       - REGENERATION/1/2-5
       - SPEED/1/30-140
 
   eggnog:
-    name: Яичный ликёр/Эгг-ног/Готовый эгг-ног
+    name: Ликёр из яйца (чего)/Эгг-ног/Готовый эгг-ног
     ingredients:
       - Egg/5
       - Sugar/2
@@ -759,7 +759,7 @@ recipes:
     alcohol: 10
     wood: 0
     age: 3
-    lore: Made with raw egg
+    lore: Приготовлено из яйца твоего бати
 
 
 
