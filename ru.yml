@@ -7,7 +7,7 @@ Brew_Distilled: Дистиллированно
 Brew_LessDistilled: Недостаточно дистилированно
 Brew_HundredsOfYears: Сотни лет
 Brew_Ingredients: Ингредиенты
-Brew_MinutePluralPostfix: null
+Brew_MinutePluralPostfix: c
 Brew_OneYear: 1 год
 Brew_ThickBrew: Мутное варево
 Brew_Undefined: Варево из котла
@@ -15,23 +15,23 @@ Brew_Woodtype: Тип дерева
 Brew_Years: Года
 Brew_fermented: ферментировано
 Brew_minute: минут
-Brew_Alc: Алкогольность &v1мл
+Brew_Alc: Алк &v1ml
 
 # CMD
-CMD_Copy_Error: '&6&v1 &cPotions did not fit into your inventory'
-CMD_Info_Drunk: '&v1 is &6&v2% &fdrunk, with a quality of &6&v3'
-CMD_Info_NotDrunk: '&v1 is not drunk'
-CMD_NonStatic: '&ePotion is not static anymore and will normally age in barrels.'
-CMD_Player: '&a&v1 is now &6&v2% &adrunk, with a quality of &6&v3'
-CMD_Player_Error: '&cThe quality has to be between 1 and 10!'
-CMD_Reload: '&aConfig was successfully reloaded'
-CMD_Created: '&aBrew Created'
-CMD_Configname: '&aName for the Config is: &f&v1'
-CMD_Configname_Error: '&cCould not find item in your hand'
-CMD_Static: '&aPotion is now static and will not change in barrels or brewing stands.'
-CMD_UnLabel: '&aLabel removed!'
-CMD_Drink: '&aYou drank one &v1'
-CMD_DrinkOther: '&a&v1 drinks one &v2'
+CMD_Copy_Error: '&6&v1 &cЗелья не помещаются в инвентаре'
+CMD_Info_Drunk: '&v1 является &6&v2% &fпьяным, с качеством &6&v3'
+CMD_Info_NotDrunk: '&v1 не пьян'
+CMD_NonStatic: '&eЗелье больше не статично и будет нормально стареть в бочках.'
+CMD_Player: '&a&v1 теперь &6&v2% &aпьян, с качеством &6&v3'
+CMD_Player_Error: '&cКачество должно быть от 1 до 10!'
+CMD_Reload: '&aКонфигурация была успешно перезагружена'
+CMD_Created: '&aВарево создано'
+CMD_Configname: '&aНазвание для конфигурации: &f&v1'
+CMD_Configname_Error: '&cНе удалось найти предмет в вашей руке'
+CMD_Static: '&aЗелье теперь статично и не будет меняться в бочках или стойках для варки.'
+CMD_UnLabel: '&aЭтикетка удалена!'
+CMD_Drink: '&aТы выпил одну &v1'
+CMD_DrinkOther: '&a&v1 выпил одну &v2'
 
 # Error
 Error_ConfigUpdate: 'Unknown Brewery config version: v&v1, config was not updated!'
